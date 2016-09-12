@@ -1,0 +1,188 @@
+{
+    "images":
+    {
+	        "Title":
+		{
+            "image" : "mainmenu:PostBlast.png",
+            "posX" : 0,
+            "posY" : -170,
+            "width" : 274,
+            "height" : 44,
+            "alignment" : "left_center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 30,
+            "posY" : -90,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 30,
+            "posY" : -60,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "#modsloaded# Mods",
+            "posX" : 30,
+            "posY" : -30,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "support":
+        {
+            "text" : "Support",
+            "posX" : 30,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "http://technicpack.net/modpack/nuclear-revolution.689897/discuss"
+            }
+        },
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 30,
+            "posY" : 30,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 30,
+            "posY" : 90,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        "language":
+        {
+            "text" : "Language",
+            "posX" : 30,
+            "posY" : 60,
+            "width" : 98,
+            "height" : 20,
+			"tooltip": "Language",
+			"alignment" : "left_center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -108,
+            "posY" : -35,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    }, 
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -108,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 5,
+            "posY" : -35,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 5,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 5,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "PostBlast v3-1.0.0",
+            "posX" : 5,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+    
+    "other":
+    {
+			"background":
+		{
+            "image" : "mainmenu:background.png",
+			"mode" : "fill"
+		}
+    }
+}
